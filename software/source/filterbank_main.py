@@ -2,13 +2,7 @@ import math
 import time
 import wx
 import wx.adv
-import time
-import sys
-from threading import Thread, Lock
-import threading
-from pubsub import pub
-import wx.lib.agw.hyperlink as hl
-
+from wx.lib.wordwrap import wordwrap
 import ftd2xx as ftd
 
 import filterbank_driver as fbDriver
