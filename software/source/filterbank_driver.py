@@ -1,4 +1,3 @@
-import ftd2xx as ftd
 
 import defs
 
@@ -9,4 +8,3 @@ def selectChannel(ftdDevice, channel):
         val=defs.channelValueLookup[channel][0]<<defs.GPIO_CTRLA | defs.channelValueLookup[channel][1]<<defs.GPIO_CTRLB | defs.channelValueLookup[channel][2]<<defs.GPIO_CTRLC
         ftdDevice.write(bytes([val]))
                 
-        print('channel '+str(channel)+' selected')

@@ -13,7 +13,10 @@ SOFTWARE_VERSION_MINOR=0
 SOFTWARE_VERSION_REV=0
 SOFTWARE_VERSION_STR='v'+str(SOFTWARE_VERSION_MAJOR)+'.'+str(SOFTWARE_VERSION_MINOR)+'.'+str(SOFTWARE_VERSION_REV)
 
-HOME='https://www.atekmidas.com/'
+COPYRIGHT="(c) 2020 ATEK Mikrodalga AS"
+WEB_LINK='https://www.atekmidas.com'
+WEB_TEXT="ATEK MIDAS"
+LICENSE="All rights reserved.\nwx.Widgets and wxPython is used under wxWindows Library License."
 
 GPIO_CTRLA=0
 GPIO_CTRLB=4
@@ -44,6 +47,6 @@ channelNameLookup={
 if PART_NUMBER==PART_NUMBER_ATEK1001:
     channelNameLookup[8]='Bypass'
 elif PART_NUMBER==PART_NUMBER_ATEK1002:
-    channelNameLookup[8]='Band 8 opt.'
+    channelNameLookup[8]='Band 8 (opt.)'
 
 offlineModeSerial='OFFLINE MODE'

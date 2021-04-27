@@ -1,10 +1,11 @@
 # Installation of the gui
 * For binary:
-  * First install python
-  * Copy software/binary folder to your PC
-  * run the filterbank_main.exe
+  * run the binary/atek1001.exe
 * For source code:
   * First install python
+       * Pre-requirements
+           * ftd2xx
+           * wxPython
   * Copy software/source folder to your PC
   * Open command line
   * Navigate the source folder

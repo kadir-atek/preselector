@@ -208,6 +208,7 @@ class CustomButton(CONTROL):
 
     def _on_mouse_up(self, event):
         self.mouse_down = False
+        self.SetFocus()
         self.send_button_event()
         self.Refresh()
 
