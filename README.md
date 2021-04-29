@@ -1,12 +1,14 @@
-# Installation of the gui
-* For binary:
-  * run the binary/atek1001.exe
-* For source code:
-  * First install python
-       * Pre-requirements
-           * ftd2xx
-           * wxPython
-  * Copy software/source folder to your PC
-  * Open command line
-  * Navigate the source folder
+This is the source code for ATEK1001 Preselector Module GUI
+Executable for Windows 10 can be download from  https://github.com/kadir-atek/preselector/releases/
+
+# How to run from source code 
+* From source code:
+  * Install Python
+  * Install prerequisites
+    * ftd2xx "pip install ftd2xx"
+    * wxPython "pip install wxPython"
   * run the `python filterbank_main.py` command
+# Generate your own executable
+* Install pyinstaller "pip install pyinstaller"
+* run "pyinstaller atek1001.spec"
+* executable is under dist/ directory
