@@ -1,4 +1,4 @@
-This is the source code for ATEK1001 Preselector Module GUI
+# Source code for ATEK1001 Preselector Module GUI and PCB Design Files
 Executable for Windows 10 can be download from  https://github.com/kadir-atek/preselector/releases/
 
 # How to run from source code 
